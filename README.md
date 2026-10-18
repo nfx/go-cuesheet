@@ -1,4 +1,4 @@
-# cue
+# cuesheet
 
 [![codecov](https://codecov.io/gh/nfx/go-cuesheet/graph/badge.svg?token=SSBOCH0MP7)](https://codecov.io/gh/nfx/go-cuesheet)
 
@@ -13,7 +13,7 @@ import (
     "github.com/nfx/go-cuesheet"
 )
 
-sheet, err := cue.Parse(raw) // raw contains the CUE file bytes
+sheet, err := cuesheet.Parse(raw) // raw contains the CUE file bytes
 if err != nil {
     return err
 }
